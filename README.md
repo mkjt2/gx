@@ -1,10 +1,10 @@
 # gx
 ## Compare Golang compression libraries
 
-How to decide? Try out a bunch of them at once. `gx` will perform a compress/decompress cycle for
-a given file with a broad selection of algorithms (standard and third party).
+How to decide between them? Try out a bunch of them at once. `gx` will perform compress/decompress cycles for
+a given file with a selection of algorithms (standard and third party).
 
-### Usage
+### How to use
 
 #### Install `gx`
 ```
@@ -87,5 +87,4 @@ zstd-best-compression     github.com/klauspost/compress/zstd  1.79      0.11 (0.
 flate-best-compression    compress/flate                      1.73      0.19 (0.001)  0.02 (0.000)  
 gzip-best-compression     compress/gzip                       1.73      0.19 (0.004)  0.02 (0.000)  
 zlib-best-compression     compress/zlib                       1.73      0.20 (0.002)  0.02 (0.000)  
-
 ```
