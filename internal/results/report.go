@@ -67,6 +67,7 @@ func (r *Result) GetDecompressionTimeSeconds() *Metric[float64] {
 func GetReportTable(results []*Result) table.Table {
 	headerFmt := color.New(color.FgGreen, color.Underline).SprintfFunc()
 	columnFmt := color.New(color.FgYellow).SprintfFunc()
+	// TODO indicate stdev in brackets clearly
 	tbl := table.New("Algo", "Package", "CX Ratio", "CX Time (s)", "DX Time (s)")
 	tbl.WithHeaderFormatter(headerFmt).WithFirstColumnFormatter(columnFmt)
 	// TODO make report prettier (e.g. numeric formatting, etc)

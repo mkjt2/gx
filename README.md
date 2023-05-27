@@ -9,7 +9,9 @@ a given file with a selection of algorithms (standard and third party).
 #### Install `gx`
 ```
 $ git clone https://github.com/mkjt2/gx.git
+$ cd gx/
 $ go build
+# Executable "./gx" is created
 ```
 
 #### Run `gx`
